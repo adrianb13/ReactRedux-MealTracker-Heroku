@@ -2,13 +2,13 @@ import React from "react";
 import { Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
-//import history from "./history/history";
-import createBrowserHistory from "history/createBrowserHistory";
+import history from "./history/history";
+//import createBrowserHistory from "history/createBrowserHistory";
 import Home from "./components/Home";
 import AddForm from "./components/Forms/Add";
 import UpdateDelete from "./components/Forms/UpdateDelete";
 
-const history = createBrowserHistory({ basename: "/ReactRedux-MealTracker" });
+//const history = createBrowserHistory({ basename: "/ReactRedux-MealTracker" });
 
 class App extends React.Component {
   render(){
