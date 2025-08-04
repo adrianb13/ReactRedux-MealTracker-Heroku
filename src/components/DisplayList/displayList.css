@@ -10,6 +10,9 @@
   text-align: center;
   margin: 0 auto;
 }
+@supports (-ms-ime-align:auto) {
+  .itemBox { justify-content:space-around; } 
+}
 .listItem {
   width: 75%;
   word-wrap: break-word;

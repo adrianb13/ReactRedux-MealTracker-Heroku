@@ -33,6 +33,9 @@
   justify-content: space-evenly;
   margin: 10px 0;
 }
+@supports (-ms-ime-align:auto) {
+  .modalBtnBox { justify-content:space-around; } 
+}
 .modalBtn {
   width: 100px;
   cursor: pointer;

@@ -34,6 +34,9 @@ input {
   justify-content: space-evenly;
   padding-top: 10px;
 }
+@supports (-ms-ime-align:auto) {
+  .btnBox { justify-content:space-around; } 
+}
 /* Submit Button */
 .addSub {
   cursor: pointer;
